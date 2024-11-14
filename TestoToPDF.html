@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export to PDF</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <h1>Your Simple Webpage</h1>
+    <p>This is a simple webpage.</p>
+
+    <!-- Button to trigger PDF export -->
+    <button onclick="exportToPDF()">Export to PDF</button>
+
+    <script>
+        function exportToPDF() {
+            // Get the body element
+            var element = document.body;
+
+            // Configure the options for pdf generation
+            var options = {
+                margin: 10,
+                filename: 'exported_document.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            };
+
+            // Use html2pdf library to generate PDF
+            html2pdf(element, options);
+        }
+    </script>
+</body>
+</html>
