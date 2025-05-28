@@ -1,47 +1,47 @@
 // Cursos basicos 
 var basico1 = {
     curso: 'Análisis Complejo 1',
-    profesor: "Alberto Alonso y Coria",
+    profesor: "José Antonio Gómez Ortega",
     creditos: 9,
     sede: 'FC',
-    email: 'alonsoalberto@gmail.com',
-    salon: "por definir (presencial)",
-    dias: 'lu,mi,vi',
-    horario: 'por definir'
+    email: 'jago@ciencias.unam.mx',
+    salon: "S104-Depto.Mat. (presencial)",
+    dias: 'ma,mi,ju',
+    horario: '9:00-10:30'
 };
 
 
 var basico2 = {
-    curso: 'Análisis Complejo 1',
-    profesor: "Salvador Pérez Esteva",
+    curso: 'Análisis Real 1',
+    profesor: "Luis Octavio Silva Pereyra",
     creditos: 9,
-    sede: 'IM-CVCA',
-    email: 'salvador@matcuer.unam.mx',
+    sede: 'IIMAS',
+    email: 'silva@iimas.unam.mx',
     salon: "por definir (presencial)",
-    dias: 'lu, mi, vi',
-    horario: '9:30-11:00'
+    dias: 'ma, mi, vi',
+    horario: '9:00-10:30'
 };
 
 var basico3 = {
     curso: 'Análisis Real 1',
-    profesor: "Javier Rosenblueth Laguette",
+    profesor: "Salvador Pérez Esteva",
     creditos: 9,
-    sede: 'IIMAS',
-    email: 'jfrl@unam.mx',
-    salon: "por definir (presencial)",
-    dias: 'lu, vi',
-    horario: '12:00-14:15'
+    sede: 'IM-CVCA',
+    email: 'spesteva@im.unam.mx',
+    salon: "Aula inteligente N2-15 (presencial)",
+    dias: 'lu,mi,vi',
+    horario: '9:30-11:00'
 };
 
 var basico4 = {
     curso: 'Análisis Funcional 1',
-    profesor: "Iván Naumkin",
+    profesor: "Gerardo Sánchez Licea",
     creditos: 9,
-    sede: 'IIMAS',
-    email: 'ivan.naumkin@iimas.unam.mx',
+    sede: 'FC',
+    email: 'gesl@ciencias.unam.mx',
     salon: "por definir (presencial)",
-    dias: 'lu',
-    horario: '8:30-13:00'
+    dias: 'ma,mi,ju',
+    horario: '11:00-12:30'
 };
 
 var basico5 = {
@@ -50,7 +50,7 @@ var basico5 = {
     creditos: 9,
     sede: 'IM-CVCA',
     email: 'yesenia.bravo@im.unam.mx',
-    salon: "por definir (presencial)",
+    salon: "Aula 1 en UCIM (presencial)",
     dias: 'lu, mi, vi',
     horario: '11:00-12:30'
 };
@@ -58,133 +58,101 @@ var basico5 = {
 
 // Cursos selectos
 var selecto1 = {
-    curso: 'Análisis Armónico',
-    profesor: "Francisco Marcos López García",
+    curso: 'Teoría de Fourier y análisis de singularidades',
+    profesor: "Yesenia Bravo Ortega",
     creditos: 9,
-    sede: 'IM-CU',
-    email: 'marcos.lopez@im.unam.mx',
-    salon: "por definir (presencial)",
-    dias: 'ma, ju',
-    horario: '11:30-13:45',
-    pdf: './Temarios/Lopez.pdf'
+    sede: 'IM-CVCA',
+    email: 'yesenia.bravo@im.unam.mx',
+    salon: "Aula 2 en UCIM (presencial)",
+    dias: 'lu,mi,ju',
+    horario: '9:00-10:30',
+    pdf: './Temarios/Bravo.pdf'
 };
 
 var selecto2 = {
-    curso: 'Teoría de evolución y dispersión para la ecuación de Schrödinger',
-    profesor: "Miguel Ballesteros Montero",
-    creditos: 6,
-    sede: 'IIMAS',
-    email: 'miguel.ballesteros@iimas.unam.mx',
-    salon: "por definir (presencial)",
-    dias: 'lu, mi, vi',
-    horario: '9:00-10:00',
-    pdf: './Temarios/Ballesteros.pdf'
+    curso: 'Análisis microlocal',
+    profesor: "Francisco Marcos López García",
+    creditos: 9,
+    sede: 'IM-CVCA',
+    email: 'marcos.lopez@im.unam.mx',
+    salon: "Aula 2 en UCIM (presencial)",
+    dias: 'ma, ju',
+    horario: '11:30-13:45',
+    pdf: './Temarios/Test.pdf'
 };
 
 var selecto3 = {
-    curso: 'Functions of bounded variation and isoperimetric problems',
-    profesor: "Sean Mc. Curdy Ries",
-    creditos: 6,
+    curso: 'Dinámica holomorfa y geometría conforme',
+    profesor: "Peter Makienko",
+    creditos: 9,
+    sede: 'IM-CVCA',
+    email: 'makienko@im.unam.mx',
+    salon: "Aula N2, 16 (presencial)",
+    dias: 'lu, mi',
+    horario: '9:30-12:00',
+    pdf: './Temarios/Makienko.pdf'
+};
+
+var selecto4 = {
+    curso: 'Regularity theory for perimeter minimizers under volume constraint',
+    profesor: "Saen Mc Curdy Ries",
+    creditos: 9,
     sede: 'IM-CU',
     email: 'sean.mccurdy@im.unam.mx',
     salon: "por definir (presencial)",
-    dias: 'ma, mi',
+    dias: 'lu,mi,vi',
     horario: '10:00-11:30',
     pdf: './Temarios/McCurdy.pdf'
 };
 
-var selecto4 = {
-    curso: 'Optimización y gradientes generalizados',
-    profesor: "Javier Rosenblueth Laguette",
-    creditos: 6,
-    sede: 'IIMAS',
-    email: 'jfrl@unam.mx',
-    salon: "200 (presencial)",
-    dias: 'mi',
-    horario: '12:00-15:00',
-    pdf: './Temarios/Rosenblueth.pdf'
-};
 
 var selecto5 = {
-    curso: 'Algebras C*. Dimensión nuclear',
-    profesor: "Jorge Castillejos Cordero",
-    creditos: 6,
+    curso: 'Teoría espectral de operadores de Schrodinger',
+    profesor: "Carlos Villegas Blas",
+    creditos: 9,
     sede: 'IM-CVCA',
-    email: 'jorge.castillejos@im.unam.mx',
-    salon: "por definir (presencial)",
-    dias: 'lu, mi',
-    horario: '10:00-11:30',
-    pdf: './Temarios/Castillejos.pdf'
-};
-
-var selecto6 = {
-    curso: 'Medidas de Young en soluciones a EDPs',
-    profesor: "Judith Campos Cordero",
-    creditos: 6,
-    sede: 'FC',
-    email: 'judith@ciencias.unam.mx',
-    salon: "por definir (presencial)",
-    dias: 'ma, vi',
-    horario: '17:00-18:00 y 16:00-18:00',
-    pdf: './Temarios/Campos.pdf'
-};
-
-var selecto7 = {
-    curso: 'Dinámica simbólica',
-    profesor: "Ricardo Gómez Aíza",
-    creditos: 6,
-    sede: 'IM-CU',
-    email: 'rgomez@im.unam.mx',
-    salon: "por definir (presencial)",
+    email: 'carlos.villegas@im.unam.mx',
+    salon: "salón de seminarios, PB (presencial)",
     dias: 'ma, ju',
-    horario: '10:00-11:30',
-    pdf: './Temarios/Gomez.pdf'
+    horario: '12:00-14:30',
+    pdf: './Temarios/Villegas.pdf'
 };
 
-var selecto8 = {
-    curso: 'Teroía espectral de operadores',
-    profesor: "Rafael del Río",
-    creditos: 6,
-    sede: 'IIMAS',
-    email: 'delrio@iimas.unam.mx',
-    salon: "(en línea)",
-    dias: 'lu, vi',
-    horario: '12:00-13:30',
-    pdf: './Temarios/DelRio.pdf'
-};
-
-var selecto9 = {
-    curso: 'Espacios de Hardy y operadores de Hankel',
-    profesor: "Jonas Schober",
-    creditos: 6,
-    sede: 'IIMAS',
-    email: 'schober.jonas@gmail.com',
-    salon: "por definir (presencial)",
-    dias: 'lu, mi',
-    horario: '14:00-15:30',
-    pdf: './Temarios/Schober.pdf'
-};
 
 
 // Seminarios 
+
+
 var seminario1 = {
-    curso: 'NA',
-    profesor: "NA",
-    creditos: '',
-    sede: 'NA',
-    email: 'NA',
-    salon: "NA",
-    dias: 'NA',
-    horario: 'NA',
-    pdf: ''
-}; 
+    curso: 'El invariante de Dixmier-Douady',
+    profesor: "Jorge Castillejos",
+    creditos: 5,
+    sede: 'IM-CVCA',
+    email: 'jorge.castillejos@im.unam.mx',
+    salon: "por definir (presencial)",
+    dias: 'ma',
+    horario: '10:00-12:30',
+    pdf: './Temarios/Castillejos.pdf'
+};
+
+var seminario2 = {
+    curso: 'Herramientas analíticas para la teoría de los números',
+    profesor: "Gerónimo Francisco Uribe Bravo",
+    creditos: 5,
+    sede: 'IM-CU',
+    email: 'geronimo@matem.unam.mx',
+    salon: "por definir (presencial)",
+    dias: 'lu',
+    horario: '15:00-17:30',
+    pdf: './Temarios/Uribe.pdf'
+};
 
 // ... similarly for other selecto and seminario objects
 
 document.addEventListener('DOMContentLoaded', function () {
     var objects1 = [basico1,basico2,basico3,basico4,basico5];
-    var objects2 = [selecto1,selecto2,selecto3,selecto4,selecto5,selecto6,selecto7,selecto8,selecto9];
-    var objects3 = [seminario1];
+    var objects2 = [selecto1,selecto2,selecto3,selecto4,selecto5];
+    var objects3 = [seminario1,seminario2];
 
     function createTableRow(object, includePdf) {
         var row = document.createElement('tr');
@@ -216,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
         tableBody2.appendChild(createTableRow(object, true));
     });
 
-    /*objects3.forEach(function (object) {
+    objects3.forEach(function (object) {
         tableBody3.appendChild(createTableRow(object, true));
-    });*/
+    });
 });
