@@ -1,3 +1,5 @@
+/* primera version sin temarios incluidos en pdf*/
+
 var basico1 = {
     curso: 'Análisis Complejo 1',
     profesor: "Francisco Marcos López García",

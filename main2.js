@@ -78,7 +78,7 @@ var selecto2 = {
     salon: "Aula 2 en UCIM (presencial)",
     dias: 'ma, ju',
     horario: '11:30-13:45',
-    pdf: './Temarios/Test.pdf'
+    pdf: './Temarios/Lopez.pdf'
 };
 
 var selecto3 = {
