@@ -119,6 +119,17 @@ var selecto5 = {
 };
 
 
+var selecto5 = {
+    curso: 'Teoría espectral de operadores',
+    profesor: "Rafael del Río",
+    creditos: 6,
+    sede: 'IIMAS',
+    email: 'delriomagia@gmail.com',
+    salon: " (en línea)",
+    dias: 'lu,mi',
+    horario: '12:00-13:30',
+    pdf: './Temarios/DelRio.pdf'
+};
 
 // Seminarios 
 
