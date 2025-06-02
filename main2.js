@@ -119,7 +119,7 @@ var selecto5 = {
 };
 
 
-var selecto5 = {
+var selecto6 = {
     curso: 'Teoría espectral de operadores',
     profesor: "Rafael del Río",
     creditos: 6,
@@ -162,7 +162,7 @@ var seminario2 = {
 
 document.addEventListener('DOMContentLoaded', function () {
     var objects1 = [basico1,basico2,basico3,basico4,basico5];
-    var objects2 = [selecto1,selecto2,selecto3,selecto4,selecto5];
+    var objects2 = [selecto1,selecto2,selecto3,selecto4,selecto5,selecto6];
     var objects3 = [seminario1,seminario2];
 
     function createTableRow(object, includePdf) {
