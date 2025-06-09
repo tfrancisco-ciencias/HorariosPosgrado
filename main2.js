@@ -5,9 +5,9 @@ var basico1 = {
     creditos: 9,
     sede: 'FC',
     email: 'jago@ciencias.unam.mx',
-    salon: "S104-Depto.Mat. (presencial)",
-    dias: 'ma,mi,ju',
-    horario: '9:00-10:30'
+    salon: "por definir (presencial)",
+    dias: 'lu,mi,ju',
+    horario: '9:30-11:00'
 };
 
 
