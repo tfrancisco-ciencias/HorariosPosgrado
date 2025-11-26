@@ -78,7 +78,7 @@ var selecto2 = {
     salon: "por definir (híbrida)",
     dias: 'ma, ju',
     horario: '15:45-18:00',
-    pdf: './Temarios/Mooney.pdf'
+    pdf: './Temarios/Gendron.pdf'
 };
 
 var selecto3 = {
