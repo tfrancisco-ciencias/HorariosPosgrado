@@ -112,7 +112,7 @@ var selecto5 = {
     salon: "(en línea)",
     dias: 'lu,mi',
     horario: '12:00-13:30',
-    pdf: './Temarios/delRio.pdf'
+    pdf: './Temarios/Rio.pdf'
 };
 
 var selecto6 = {
