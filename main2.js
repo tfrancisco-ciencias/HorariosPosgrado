@@ -2,74 +2,53 @@
 
 var basico1 = {
     curso: 'ANÁLISIS REAL I',
-    profesor: "José María González Barrios Murguía", // Formato corregido 
+    profesor: "Miguel A. Ballesteros Montero", // Formato corregido 
     creditos: 9,
     sede: 'IIMAS',
-    email: 'gonzaba@sigma.iimas.unam.mx', 
+    email: 'miguel.ballesteros@iimas.unam.mx', 
     salon: "por definir (presencial)",
-    dias: 'ma, ju',
-    horario: '9:00-11:30'
+    dias: 'ma,mi',
+    horario: '9:00-11:15'
 };
 
 
 var basico2 = {
-    curso: 'ANALISIS REAL I',
+    curso: 'ANALISIS FUNCIONAL I',
+    profesor: "Ma. de la Luz Jimena de Teresa de Oteyza", // Formato corregido 
+    creditos: 9,
+    sede: 'IMATE CU',
+    email: 'ldeteresa@im.unam.mx',
+    salon: "cubículo 206",
+    dias: 'mi, vi',
+    horario: '10:00-12:30'
+};
+
+
+var basico3 = {
+    curso: 'ANÁLISIS FUNCIONAL I',
     profesor: "Cintia Pacchiano Camacho", // Formato corregido 
     creditos: 9,
     sede: 'IMATE Cvca',
-    email: 'cintia.pacchiano@im.unam.mx',
+    email: 'cintia.pacchiano@im.unam.mx', 
     salon: "por definir (híbrida)",
     dias: 'lu, mi, vi',
     horario: '11:00-12:30'
 };
 
 
-var basico3 = {
-    curso: 'ANÁLISIS COMPLEJO I',
-    profesor: "Luis Octavio Silva Pereyra", // Formato corregido 
-    creditos: 9,
-    sede: 'IIMAS',
-    email: 'silva@iimas.unam.mx', 
-    salon: "por definir (presencial)",
-    dias: 'lu, mi, vi',
-    horario: '9:00-10:30'
-};
-
-
 var basico4 = {
     curso: 'ANÁLISIS COMPLEJO I',
-    profesor: "José Ferrán Valdez Lorenzo", // Formato corregido 
+    profesor: "Jorge Castillejos López", // Formato corregido 
     creditos: 9,
-    sede: 'CCM',
-    email: 'ferran@matmor.unam.mx',
-    salon: "Salón 3, Centro de Ciencias Matemáticas, Morelia (presencial)",
-    dias: 'lu, ma, mi',
-    horario: '12:00-13:30'
-};
-
-
-
-var basico5 = {
-    curso: 'ANALISIS FUNCIONAL I',
-    profesor: "Ivan Naumkin", // Formato corregido 
-    creditos: 9,
-    sede: 'IIMAS',
-    email: 'ivannaumkinkaikin@gmail.com',
+    sede: 'IMATE Cvca',
+    email: 'jorge.castillejos@im.unam.mx',
     salon: "por definir (híbrida)",
-    dias: 'ma, mi',
-    horario: 'ma 16:30-18:30 / mi 8:30-11:00' 
+    dias: 'por definir',
+    horario: 'por definir'
 };
 
-var basico6 = {
-    curso: 'ANÁLISIS FUNCIONAL I',
-    profesor: "Mónica Clapp Jiménez Labora", // Formato corregido 
-    creditos: 9,
-    sede: 'IMATE- Juriquilla',
-    email: 'monica.clapp@im.unam.mx', 
-    salon: "IM-Juriquilla (presencial)",
-    dias: 'lu, ma, mi',
-    horario: '10:00-11:30'
-};
+
+
 
 
 
@@ -77,80 +56,107 @@ var basico6 = {
 
 // Cursos selectos
 var selecto1 = {
-    curso: 'INTRODUCCIÓN A LA TEORÍA GEOMÉTRICA DE MEDIDAS',
-    profesor: "Sean Mc Curdy Ries", // Formato corregido 
+    curso: 'TEORÍA ESPECTRAL DE OPERADORES DE SCHRODINGER',
+    profesor: "Carlos Villegas Blas", // Formato corregido 
     creditos: 9,
-    sede: 'IMATE-CU',
-    email: 'sean.mccurdy@im.unam.mx',
-    salon: "por definir (presencial)",
-    dias: 'lu, mi, vi',
-    horario: '10:00-11:30',
-    pdf: './Temarios/McCurdy.pdf'
+    sede: 'IMATE Cvca',
+    email: 'carlos.villegas@im.unam.mx',
+    salon: "salón de seminarios,planta baja (híbrida)",
+    dias: 'ma,ju',
+    horario: '12:00-14:30',
+    pdf: './Temarios/Villegas.pdf'
 };
 
 var selecto2 = {
-    curso: 'TEORÍA DE CAMPOS CUÁNTICOS II: RENORMALIZACIÓN',
-    profesor: "Timothy Mooney Gendron", // Formato corregido 
+    curso: 'TEORÍA DE CONTROL PARA SISTEMAS DE DIMENSIÓN INFINITA',
+    profesor: "Francisco Marcos López Gracía", // Formato corregido 
     creditos: 9,
     sede: 'IMATE Cvca',
-    email: 'tim@matcuer.unam.mx',
-    salon: "por definir (presencial)",
+    email: 'marcos.lopez@im.unam.mx',
+    salon: "salón 2 UCIM (híbrida)",
     dias: 'ma, ju',
-    horario: '14:45-18:00',
-    pdf: './Temarios/Gendron.pdf'
+    horario: '8:00-10:15',
+    pdf: './Temarios/Lopez.pdf'
 };
 
 var selecto3 = {
-    curso: 'ANÁLISIS DE FOURIER',
-    profesor: "Magali Folch Gabayet", // Formato corregido 
+    curso: 'ANÁLISIS EN LA ERA DE LA IAGen',
+    profesor: "Alberto Saldaña de Fuentes", // Formato corregido 
     creditos: 6,
-    sede: 'IMATE-CU',
-    email: 'folchgab@matem.unam.mx',
-    salon: "por definir (presencial)",
-    dias: 'por definir',
-    horario: 'por definir',
-    pdf: './Temarios/Folch.pdf'
+    sede: 'IMATE CU',
+    email: 'alberto.saldana@im.unam.mx',
+    salon: "salón 6 (presencial)",
+    dias: 'lu,mi',
+    horario: '15:00-16:30',
+    pdf: './Temarios/Saldana.pdf'
 };
 
 var selecto4 = {
-    curso: 'TEORÍA ESPECTRAL AVANZADA',
-    profesor: "Rafael René del Río Castillo", // Formato corregido 
+    curso: 'DINÁMICA HOLOMORFA',
+    profesor: "Laura Rosales Ortiz", // Formato corregido 
     creditos: 6, 
-    sede: 'IIMAS',
-    email: 'delriomagia@gmail.com',
-    salon: "en línea",
-    dias: 'lu, mi',
-    horario: '12:00-13:30',
-    pdf: './Temarios/DelRio.pdf'
+    sede: 'IMATE Cvca',
+    email: 'laura.rosales@im.unam.mx',
+    salon: "por definir (presencial)",
+    dias: 'ma,ju',
+    horario: '9:30-11:00',
+    pdf: './Temarios/Rosales.pdf'
 };
 
 var selecto5 = {
-    curso: 'TEORÍA DE DISPERSIÓN Y EVOLUCIÓN TEMPORAL PARA SISTEMAS CUÁNTICOS DISCRETOS',
-    profesor: "Miguel Arturo Ballesteros Montero", // Formato corregido 
+    curso: 'OPERADORES EN ESPACIOS DE HILBERT',
+    profesor: "Rafael del Río Castillo", // Formato corregido 
     creditos: 6,
     sede: 'IIMAS',
-    email: 'miguel.ballesteros@iimas.unam.mx',
-    salon: "Cubículo (híbrida)",
-    dias: 'ma, ju',
-    horario: '8:30-10:00',
-    pdf: './Temarios/Ballesteros.pdf'
+    email: 'delriomagia@gmail.com',
+    salon: "(en línea)",
+    dias: 'lu,mi',
+    horario: '12:00-13:30',
+    pdf: './Temarios/delRio.pdf'
 };
 
 var selecto6 = {
-    curso: 'ANÁLISIS NO SUAVE, OPTIMIZACIÓN Y MULTIPLICADORES',
+    curso: 'OPTIMIZACIÓN EN ESPACIOS DE BANACH Y CONTROL ÓPTIMO',
+    profesor: "Karla Lorena Cortez del Río", // Formato corregido 
+    creditos: 6,
+    sede: 'IIMAS',
+    email: 'karla.cortez@iimas.unam.mx',
+    salon: "por definir (presencial)",
+    dias: 'ma,ju',
+    horario: '12:00-13:30',
+    pdf: './Temarios/Cortez.pdf'
+};
+
+
+var selecto7 = {
+    curso: 'ANÁLISIS FUNCIONAL Y CÁLCULO PROXIMAL',
     profesor: "Javier Fernando Rosenblueth Laguette", // Formato corregido 
     creditos: 6,
     sede: 'IIMAS',
     email: 'jfrl@unam.mx',
-    salon: "por definir (híbrida)",
+    salon: "B200 (presencial)",
     dias: 'vi',
     horario: '12:00-15:00',
     pdf: './Temarios/Rosenblueth.pdf'
 };
 
+
+
+var selecto8 = {
+    curso: 'ANÁLISIS ESPECTRAL DE OPERADORES Y TEORÍA MATEMÁTICA DE DISPERSIÓN',
+    profesor: "Luis Octavio Silva Pereyra", // Formato corregido 
+    creditos: 6,
+    sede: 'IIMAS',
+    email: 'silva@iimas.unam.mx',
+    salon: "por definir (presencial)",
+    dias: 'lu,mi,vi',
+    horario: '9:00-10:00',
+    pdf: './Temarios/Silva.pdf'
+};
+
 document.addEventListener('DOMContentLoaded', function () {
-    var objects1 = [basico1, basico2, basico3, basico4, basico5, basico6];
-    var objects2 = [selecto1, selecto2, selecto3, selecto4, selecto5, selecto6];
+    var objects1 = [basico1, basico2, basico3, basico4];
+    var objects2 = [selecto1, selecto2, selecto3, selecto4, selecto5, selecto6, selecto7, selecto8];
     var objects3 = []; 
 
     function createTableRow(object, includePdf) {
