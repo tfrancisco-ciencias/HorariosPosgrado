@@ -49,6 +49,16 @@ var basico4 = {
 
 
 
+var basico5 = {
+    curso: 'ANÁLISIS COMPLEJO I',
+    profesor: "Quentin E. Gendron", // Formato corregido 
+    creditos: 9,
+    sede: 'IMATE CU',
+    email: 'gendron@matem.unam.mx',
+    salon: "por definir (presencial)",
+    dias: 'lu,ju',
+    horario: '11:00-13:30'
+};
 
 
 
@@ -154,9 +164,22 @@ var selecto8 = {
     pdf: './Temarios/Silva.pdf'
 };
 
+
+var selecto9 = {
+    curso: 'FUNCIONES ZETA',
+    profesor: "Timothy Mooney Gendron", // Formato corregido 
+    creditos: 9,
+    sede: 'IMATE Cvca',
+    email: 'tim@matcuer.unam.mx',
+    salon: "por definir (híbrida)",
+    dias: 'ma,ju',
+    horario: '15:45-18:00',
+    pdf: './Temarios/Gendron.pdf'
+};
+
 document.addEventListener('DOMContentLoaded', function () {
-    var objects1 = [basico1, basico2, basico3, basico4];
-    var objects2 = [selecto1, selecto2, selecto3, selecto4, selecto5, selecto6, selecto7, selecto8];
+    var objects1 = [basico1, basico2, basico3, basico4, basico5];
+    var objects2 = [selecto1, selecto2, selecto3, selecto4, selecto5, selecto6, selecto7, selecto8,selecto9];
     var objects3 = []; 
 
     function createTableRow(object, includePdf) {
